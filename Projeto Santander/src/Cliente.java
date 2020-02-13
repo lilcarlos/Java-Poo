@@ -14,7 +14,6 @@ public class Cliente {
     }
 
 
-
     public int getNumeroCliente() {
         return numeroCliente;
     }

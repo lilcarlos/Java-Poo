@@ -5,12 +5,12 @@ public class ContaPoupanca extends Conta {
 
 
     public ContaPoupanca(Cliente cliente, double saldo) {
-        this.setCliente(cliente);
-        this.setSaldo(saldo);
+        super(cliente, saldo);
+
     }
 
 
-    @Override
+
     public void depositar (double valor) {
         if (valor <= 0) {
             System.out.println("Valor inválido!");

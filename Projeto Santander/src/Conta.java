@@ -4,6 +4,11 @@ public class Conta {
     private double saldo;
 
 
+    public Conta(Cliente cliente, double saldo) {
+        this.cliente = cliente;
+        this.saldo = saldo;
+    }
+
     public void sacar(double valor) {
 
         if (valor > this.saldo) {

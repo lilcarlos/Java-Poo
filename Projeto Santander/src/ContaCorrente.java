@@ -5,8 +5,7 @@ public class ContaCorrente extends Conta {
 
 
     public ContaCorrente(Cliente cliente, double saldo, double saldoChequeEspecial) {
-        this.setCliente(cliente);
-        this.setSaldo(saldo);
+        super(cliente, saldo);
         this.saldoChequeEspecial = saldoChequeEspecial;
     }
 
