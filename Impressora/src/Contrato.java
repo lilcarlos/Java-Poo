@@ -9,6 +9,7 @@ public class Contrato implements Imprimivel {
         this.tipo = tipo;
     }
 
+    @Override
     public void imprimir() {
         System.out.println("===================================");
         System.out.println("Sou um contrato muito legal!");

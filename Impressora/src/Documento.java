@@ -9,6 +9,7 @@ public class Documento implements Imprimivel {
         this.tipo = tipo;
     }
 
+    @Override
     public void imprimir() {
         System.out.println("===================================");
         System.out.println("Sou um document do Word!");
